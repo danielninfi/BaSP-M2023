@@ -3,7 +3,7 @@
 the first week we worked on the landing page of our project in figma.
 I had never worked with figma before but I found it a very interesting program and above all easy to learn.
 Authors: Daniel Ninfi - Federico Fracchia - Mateo Carciente
-![screen-landing-page](https://user-images.githubusercontent.com/92128525/227667201-1fb7fec5-dfda-4308-8d43-dd352aa7f86f.png)
+![landing](https://user-images.githubusercontent.com/92128525/227977515-b80aa7d4-c886-4fc0-b901-716f0450828e.jpg)
 
 ## week 02
 the second week we started writing code.
