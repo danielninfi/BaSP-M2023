@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <tittle>Basp-M2023</tittle>
     </head>
@@ -91,27 +91,25 @@
                 <form action="form_submit.php" method="post">
                     <div>
                         <input type="text" placeholder="Name">
-                    </div>
-                    <div>
                         <input type="text" placeholder="Last name">
-                    </div>
-                    
-                    <div>
                         <input type="email" placeholder="Email">
                     </div>
                     <div>
                         <label>Reason</label>
-                        <select>
-                            <option value="membresias">I want to know about memberships and costs</option>
-                            <option value="consulta">I have a question or suggestion</option>
-                            <option value="reclamo">I want to male a claim</option>
-                        </select>     
+                        <input type="checkbox" id="membership" name="membership" value="membership">
+                        <label for="membership">I want to know about memberships and costs</label>
+                        <input type="checkbox" id="question" name="question" value="question">
+                        <label for="question">I have a question or suggestion</label> 
+                        <input type="checkbox" id="claim" name="claim" value="claim">
+                        <label for="claim">I want to male a claim</label>      
+                        <label>Comments</label>
                     </div>
                     <div>
-                        <label>Comments</label>
                         <textarea name="comments"></textarea>
                     </div>
-                    <input type="submit" value="send">
+                    <div> 
+                        <input type="submit" value="send">
+                    </div>
                 </form>    
             </section>
             <section>
@@ -151,18 +149,14 @@
             </section>
         </main>
         <footer>
-            <ul>
-                <li>
-                    <a href="#">Facebook</a>
-                </li>
-                <li>
-                    <a href="#">Whats app</a>
-                </li>
-                <li>
-                    <a href="#">Instagram</a>
-                </li>
-            </ul>
-            <p>&#169 2023 Mega Rocket sa. All Rights Reserved. </p>
+            <div>
+                <a href="#">Facebook</a>
+                <a href="#">Whats app</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div>
+                <p>&#169 2023 Mega Rocket | All Rights Reserved</p>
+            </div>
         </footer>
     </body>
 </html>
