@@ -4,3 +4,13 @@ color principal
 #49A37B;
 
 */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+
+
+h1 {
+    color: #49a37b;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
