@@ -17,7 +17,7 @@ For this we had a class on Thursday and a presentation of the weekly objective, 
 I started applying corrections to my html, uploading the necessary images and icons and uploaded the reset.css file provided by the tutors.
 From this point on i could start my own stylesheet to "copy" our design in figma.
 
-![Basp-M2023](https://user-images.githubusercontent.com/92128525/229878574-0587ff28-f442-40ff-bad3-f0bea7466b5b.png)
+![Basp-M2023](https://user-images.githubusercontent.com/92128525/229904837-3d83cb93-b490-4094-b762-4b6726f9cc66.png)
 
 
 
