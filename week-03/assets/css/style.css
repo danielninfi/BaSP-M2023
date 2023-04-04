@@ -88,6 +88,16 @@ h4 {
 
 .button-learn {
     margin-top: 20px;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    background-color: white;
+    border-color: #49a37b;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .img-gym {  
@@ -177,6 +187,15 @@ h4 {
 
 .comments {
     margin-top: 80px;
+}
+
+.contact-button{
+    width: 76px;
+    height: 34px;
+    background: #AACE9B;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
 }
 
 /*-------------------------------------*/
