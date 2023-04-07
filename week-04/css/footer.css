@@ -1,0 +1,19 @@
+footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    width: 100%;
+    align-content: center;
+}
+
+.container-footer {
+    position: relative; 
+    left: 44%;
+}
+
+.copyrigth {
+    position: relative; 
+    padding-top: 50px;
+    margin: auto;
+    left: 42%;
+}
