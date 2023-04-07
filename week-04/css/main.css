@@ -13,45 +13,27 @@ section {
 /*-------------------------------------*/
 
 .presentation {
-    position: relative;
-    display: inline-block;
+    
 }
 
 .present-left {
-    position: relative;
-    display: inline-block;
-    max-width: 49%;
-    vertical-align: top;
+    
 }
 
 .present-right {
-    position: relative;
-    display: inline-block;
-    max-width: 49%;
+  
 }
 
 .greetings {
-    font-style: normal;
-    text-transform: capitalize;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 38px;
-    margin-top: 20px;
-    width: 90%;
+    
 }
 
 .tagline {
-    text-transform: uppercase;
-    margin-top: 20px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;  
+      
 }
 
 .presentation-paragraph {
-    margin-top: 20px;
-    max-width: 90%;  
+     
 }
 
 .button-learn {
@@ -70,8 +52,7 @@ section {
 }
 
 .img-gym {  
-    position: relative;
-    width: 100%;
+
 }
 
 /*-------------------------------------*/
@@ -79,33 +60,23 @@ section {
 /*-------------------------------------*/
 
 .container-function-app {
-    display: inline-block;
-    width: 49%;
+   
 }
 
 .app-function-articles {
-    padding-top: 64px;
-    margin-left: 30px;
-    position: relative;
-    display: inline-block;
+    
 }
 
 .img-function {
-    display: inline-block;
-    width: 86px;
-    height: 86px;
-    padding-bottom: 35px;
+    
 }
 
 .description-function {
-    display: inline-block;
-    width: 60%;
-    margin-left: 30px;
+  
 }
 
 .app-function-paragraph {
-    padding-top: 15px;
-    width: 100%;
+  
 }
 
 /*-------------------------------------*/
@@ -113,24 +84,15 @@ section {
 /*-------------------------------------*/
 
 .container-about {
-    position: relative;
-    display: inline-block;
+   
 }
 
 .title-about { 
-    position: relative;
-    display: inline-block;
-    top: 24px;
-    left: 35px;
-    max-width: 20%;
+
 }    
 
 .text-about-paragraph { 
-    position: relative;
-    display: inline-block;
-    width: 70%;
-    text-align: center;
-    float: right;
+ 
 }
 
 /*-------------------------------------*/
@@ -138,39 +100,27 @@ section {
 /*-------------------------------------*/
 
 .contact {
-    position: relative;
-    display: inline-block;
-    width: 100%;
+ 
 }
 
 .list-contact {
-    list-style: none;
-    position: relative;
-    display: inline-block;
-    padding-top: 30px;
-    padding-left: 20px;
-    max-width: 40%;
+ 
 }
 
 .reason {
-    position: relative;
-    display: inline-block;
-    max-width: 49%; 
-    float: right;
-    top: 24px;
-    right: 25%; 
+   
 }
 
 .form {
-    padding-top: 20px;
+    
 }
 
 .place {
-    width: 300px;
+  
 }
 
 .comments {
-    margin-top: 80px;
+   
 }
 
 .contact-button{
@@ -187,27 +137,17 @@ section {
 /*-------------------------------------*/
 
 .activities {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px; 
+    
 }
 
 .activities-list {
-    position: relative;
-    display: inline-block;
-    padding: 30px;
-    max-width: 24%;
-    vertical-align: top; 
+  
 }
 
 .activities-ul {
-    padding-top: 20px;
-    list-style: circle;
+    
 }
 
 .list-activities {
-    padding-top: 20px;
-    font-size: 12px;
+   
 }
