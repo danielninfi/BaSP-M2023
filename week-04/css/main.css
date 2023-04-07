@@ -1,13 +1,3 @@
-main {
-    border-bottom: 1px solid black;
-}
-
-section {
-    border-top: 1px solid black;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
 /*-------------------------------------*/
 /*            PRESENTATIONS            */
 /*-------------------------------------*/
@@ -37,17 +27,14 @@ section {
 }
 
 .button-learn {
-    margin-top: 40px;
-    margin-left: 40px;
-    padding: 10px;
+    padding: 40px 50px;
     font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 19px;
+    font-weight: 600;
+    font-size: 1.5em;
     text-transform: uppercase;
     background-color: white;
     border-color: #49a37b;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
 }
 
@@ -92,7 +79,7 @@ section {
 }    
 
 .text-about-paragraph { 
- 
+   
 }
 
 /*-------------------------------------*/
@@ -127,7 +114,7 @@ section {
     width: 76px;
     height: 34px;
     background: #AACE9B;
-    font-size: 12px;
+    font-size: 1.2em;
     border: none;
     border-radius: 5px;
 }
