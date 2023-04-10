@@ -9,7 +9,7 @@ output, ruby, section, summary, time, mark, audio, video {
     padding: 0;
     border: 0;
     font-size: 16px;
-    font: roboto;
+    font-family: 'Roboto Mono', monospace; 
     /*vertical-align: baseline;*/
   }
   

@@ -6,12 +6,21 @@ header {
     align-items: center;
 }
 
-
+header div {
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
 
 nav {
-    width: 50%;
+    width: 600px;
     height: 80px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+nav a img{
+    min-width: 45px;
+    max-width: 55px;
 }

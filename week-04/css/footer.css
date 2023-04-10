@@ -1,5 +1,5 @@
 footer {
-   height: 250px;
+   height: 500px;
     display: flex;
    flex-direction: column;
    justify-content: space-evenly;
@@ -11,4 +11,14 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.socials > a > img {
+    height: 60px;
+    width: 60px;
+}
+
+.copyrigth {
+    height: 30px;
+    font-size: 25px;
 }
