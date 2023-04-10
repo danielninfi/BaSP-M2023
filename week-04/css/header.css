@@ -9,7 +9,7 @@ header {
 header div {
     width: 480px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 nav {

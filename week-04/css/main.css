@@ -43,15 +43,15 @@ section {
 }
 
 .button-learn {
-    height: 100px;
+    height: 60px;
     width: 200px;
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
     text-transform: uppercase;
     background-color: white;
     border-color: #49a37b;
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
     margin: 30px 0 30px 0;
 }
@@ -84,7 +84,7 @@ section {
 
 .app-function-articles img {
     margin-bottom: 15px;
-    width: 160px;
+    width: 75px;
 }
 
 .description-function {
@@ -122,7 +122,7 @@ section {
     text-align: center;
 }
 
-.list-contact form ul{
+.test{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -134,9 +134,9 @@ section {
 }
 
 .place {
-    height: 75px;
-    width: 800px;
-    font-size: 28px;
+    height: 40px;
+    width: 350px;
+    font-size: 20px;
 }
 
 .comments {
@@ -170,9 +170,11 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center; 
+    
 }
 
 .activities > article {
+    
     max-width: fit-content;
     margin: 30px;
 }
@@ -182,5 +184,6 @@ section {
 }
 
 .activities > article > ul > li { 
+    font-size: 12px;
     list-style: circle; 
 }

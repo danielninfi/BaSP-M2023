@@ -1,5 +1,5 @@
 h1 {
-    font-size: 60px;
+    font-size: 50px;
     color: #49a37b;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-    font-size: 50px;
+    font-size: 25px;
     font-weight: 600;
     color: #49a37b;  
 }
