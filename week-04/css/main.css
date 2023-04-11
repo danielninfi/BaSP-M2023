@@ -18,6 +18,7 @@ section {
 }
 
 .present-left {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,13 +69,18 @@ section {
 }
 
 .present-right {
+    width: 50%;
     background-color: darkcyan;
 }
 
 .img-container {
     display: none;
     background-color: darkgray;
-   
+}
+
+.img-container img {
+    width: 100%;
+    
 }
 
 @media screen and (min-width: 601px){
@@ -88,6 +94,7 @@ section {
     }
 
     .present-left {
+        width: 50%;
         align-items: flex-start;
         background-image: none; 
         background-color: transparent;  
@@ -140,6 +147,10 @@ section {
     align-items: center;   
 }
 
+.tittle-function {
+    width: 80%;
+}
+
 .container-app-function {
     display: flex;
     flex-direction: column;
@@ -187,6 +198,13 @@ section {
 }
 
 @media screen and (min-width: 601px){
+    
+    .tittle-function {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
     .app-function-articles {
         display: flex;
         flex-direction: row;
@@ -217,6 +235,11 @@ section {
 
 @media screen and (min-width: 1025px){
     
+    .app-function {
+        display: flex;
+        flex-direction: column;   
+    }
+
     .app-function-articles {
         margin-left: 30px;
     }
@@ -289,14 +312,34 @@ section {
     align-items: center;
 }
 
-.contact h2 {
+.contact-title {
     text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0em;
+}
+
+.reason-title {
+    display: none;
 }
 
 .container-forms {
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+.container-form-base {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-forms-deskopt-add {
+    display: flex;
 }
 
 .contact-align{
@@ -308,6 +351,8 @@ section {
 .data-contact {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .list-contact form ul {
@@ -329,30 +374,65 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+   
+}
+
+.container-from-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .comments {
+    display: flex;
     font-size: 16px;
+    height: 200px;
+    width: 100%;
     border: 1px solid black;
+}
+
+.comments-desktop {
+    height: 300px;
 }
 
 .contact-button{
     margin: 30px;
     height: 60px;
     width: 90px;
-    background: #AACE9B;
     font-size: 25px;
     border: none;
     border-radius: 5px;
+   
+    background-color: #AACE9B;
 }
 
 .reason {
-    margin-top: 60px;
+    height: max-content;
 }
+
+.reason-title {
+    display: none;
+}
+
+.reason-title-mobile {}
 
 .reason h4 {
     text-align: center;
     margin-bottom: 30px;
+}
+
+
+
+.deskopt-form-enginners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    width: 100%;
+    
 }
 
 @media screen and (min-width: 601px){
@@ -375,8 +455,73 @@ section {
     }
 
     .container-forms {
+       
+        
+    }
+
+    .container-form-base {
+        display: flex;
         flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .contact-title-desktop {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-title {
+        font-size: ;
+        width: 100%;
+    }
+    
+    .reason-title-mobile {
+        /* display: none; */
+    }
+    .reason h4 {
+        text-align: start;
+        margin-left: 60px;
+        margin-bottom: 60px;
+    }
+
+    .container-forms {
+        flex-direction: column;
         justify-content: space-evenly;
+    }
+
+    .comments {
+        
+        margin-top: 60px;
+        width:
+        
+    }
+
+
+    .container-from-mobile {
+        display: none;
+    }
+
+    .comments-desktop {
+        font-size: 16px;
+        margin-top: 60px;
+        width: 100%
+        
+    }
+
+    .text-area-size {
+      
+    }
+
+    .reason-title {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .reason-title-mobile {
+        display: none;
     }
 
     .reason-li {
@@ -387,7 +532,14 @@ section {
         padding: 10px 0 10px 0;
         font-size: 20px;
     }
-}
+
+    .deskopt-form-enginners {
+        display: flex;
+        visibility: visible;
+       
+       
+    }
+}   
 
 /*-------------------------------------*/
 /*            ACTIVITIES               */

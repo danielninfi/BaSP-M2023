@@ -42,18 +42,14 @@
                 </article>
                 <article class="present-right">
                     <div class="img-container">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperior
-                            es vitae sunt deserunt saepe itaque, minima, laborum neque excep
-                            turi, atque autem eligendi rerum! Soluta, repudiandae! Commodi d
-                            eserunt amet nemo debitis voluptas!
-                        </p>
-                        <!-- <img src="/week-04/assets/img/gym.jpg"> -->
+                        <img src="/week-04/assets/img/gym.jpg">
                     </div>
                 </article> 
             </section>
             <section class="app-function">
-                <h2>App function</h2>
+                <div class="tittle-function">
+                    <h2>App function</h2>
+                </div>
                 <div class="container-app-function">
                     <div class="container-function-articles">
                         <article class="app-function-articles">  
@@ -120,48 +116,57 @@
                 </article>
             </section>
             <section class="contact">
-                <h2>Leave us your questions</h2>
+                <div class="contact-title-desktop">
+                    <h2 class="contact-title">Leave us your questions</h2>
+                    <h4 class="reason-title">Reason</h4>
+                </div>
                 <div class="container-forms">
-                    <article class="list-contact">
-                        <form class="data-contact">
-                            <ul class="contact-align">
-                                <li class="form">
-                                    <input type="text" placeholder="Name" class="place">
-                                </li>
-                                <li class="form">
-                                    <input type="text" placeholder="Last name" class="place">
-                                </li>
-                                <li class="form">
-                                    <input type="email" placeholder="Email" class="place">
-                                </li>
-                            </ul>
-                            <ul class="contact-align">
-                                <textarea class="comments" name="comments" placeholder="Comments" rows="5" cols="32"></textarea>
-                            </ul>
-                            <ul class="contact-align">
-                                <input type="submit" value="send" class="contact-button">    
-                            </ul>
-                        </form>
-                    </article>   
-                    <article class="reason"> 
-                        <form class="contact-align">
-                            <h4>Reason</h4>
-                            <ul>
-                                <li class="reason-li">    
-                                    <input type="checkbox" id="membership" name="membership" value="membership">
-                                    <label for="membership" class="reason-label">I want to know about memberships and costs</label>
-                                </li>
-                                <li class="reason-li">
-                                    <input type="checkbox" id="question" name="question" value="question">
-                                    <label for="question" class="reason-label">I have a question or suggestion</label> 
-                                </li>
-                                <li class="reason-li">
-                                    <input type="checkbox" id="claim" name="claim" value="claim">
-                                    <label for="claim" class="reason-label">I want to make a claim</label>      
-                                </li>
-                            </ul>   
-                        </form>
-                    </article>   
+                    <div class="container-form-base">
+                        <article class="list-contact">
+                            <form class="data-contact">
+                                <ul class="contact-align">
+                                    <li class="form">
+                                        <input type="text" placeholder="Name" class="place">
+                                    </li>
+                                    <li class="form">
+                                        <input type="text" placeholder="Last name" class="place">
+                                    </li>
+                                    <li class="form">
+                                        <input type="email" placeholder="Email" class="place">
+                                    </li>
+                                </ul>
+                                <div class="container-from-mobile">
+                                    <textarea class="comments" name="comments" placeholder="Comments"></textarea>
+                                    <input type="submit" value="send" class="contact-button">
+                                </div>       
+                            </form>
+                        </article>   
+                        <article class="reason"> 
+                            <h4 class="reason-title-mobile">Reason</h4>
+                            <form class="contact-align">
+                                <ul>
+                                    <li class="reason-li">    
+                                        <input type="checkbox" id="membership" name="membership" value="membership">
+                                        <label for="membership" class="reason-label">I want to know about memberships and costs</label>
+                                    </li>
+                                    <li class="reason-li">
+                                        <input type="checkbox" id="question" name="question" value="question">
+                                        <label for="question" class="reason-label">I have a question or suggestion</label> 
+                                    </li>
+                                    <li class="reason-li">
+                                        <input type="checkbox" id="claim" name="claim" value="claim">
+                                        <label for="claim" class="reason-label">I want to make a claim</label>      
+                                    </li>
+                                </ul>   
+                            </form>
+                        </article>   
+                    </div>
+                    <div class="container-forms-deskopt-add">
+                        <article class="deskopt-form-enginners">
+                            <textarea class="comments-desktop" name="comments" placeholder="Comments"></textarea>
+                            <input type="submit" value="send" class="contact-button">
+                        </article>
+                    </div>
                 </div> 
             </section>
             <section class="activities">
