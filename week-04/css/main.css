@@ -67,40 +67,39 @@ section {
     vertical-align: top;
 }
 
-.present-rigth {
-    background-color: green;
+.present-right {
+    background-color: darkcyan;
 }
 
 .img-container {
-    
     display: none;
+    background-color: darkgray;
+   
 }
 
 @media screen and (min-width: 601px){
 
     .presentation {
         display: flex;
-        flex-direction: row;   
-        
-    
+       flex-direction: row;
+       justify-content: center;
+       align-items:center;
+       margin: 0 5% 0 5%;
     }
 
     .present-left {
-        width: 49%;
-        background-image: none;
-        background-color: white;
-          
+        align-items: flex-start;
+        background-image: none; 
+        background-color: transparent;  
     }
 
     .greetings {
         text-align: start;
-       
         margin: 0;
         padding: 0;
     }
 
     .tagline {
-     
         display: flex;
         text-align: start;
         visibility: visible;
@@ -111,29 +110,20 @@ section {
     }
 
 
+    
 
     .present-rigth {
-        width: 49%;
-        background-color: red;
+        
+    }
+
+    .img-container{
+       
         display: flex;
         visibility: visible;
-
-    }
-
-    .img-container {
+        height: 100%;
         
-        /* background: url('../assets/img/LOGO-RR.svg') no-repeat 0;
-        background-color: rgba(0, 0, 0, 0.15);
-        background-position: center center;
-        background-size: contain; */
-        /* transform: scale(0.7);
-        display: flex;
-        visibility: visible;     */
     }
-
 }
-
-
 
 @media screen and (min-width: 1025px){
     
@@ -148,13 +138,11 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;   
- 
 }
 
 .container-app-function {
     display: flex;
     flex-direction: column;
-
 }
 
 .container-function-articles {
@@ -162,17 +150,14 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .app-function-articles {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 60px;
-    
 }
 
 .app-function-articles img {
@@ -185,7 +170,6 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .description-function h3 {
@@ -222,7 +206,6 @@ section {
         font-weight: 400;
         line-height: 33px;
         letter-spacing: 0em;
-       
     }
     
     .app-function-paragraph {
@@ -230,8 +213,6 @@ section {
         text-align: left; 
         max-width: 600px;
     }
-
-
 }
 
 @media screen and (min-width: 1025px){
@@ -259,14 +240,11 @@ section {
 }
 
 .about h2 {
-    
     font-size: 40px;
     font-weight: 500;
     line-height: 47px;
     letter-spacing: 0em;
-    text-align: center;
-    
-    
+    text-align: center;  
 }
 
 .about-paragraph-tablet {
@@ -274,6 +252,7 @@ section {
 }
 
 @media screen and (min-width: 601px){
+    
     .about-paragraph-tablet{
         display: flex;
         visibility: visible;
@@ -281,6 +260,7 @@ section {
 }
 
 @media screen and (min-width: 1025px){
+    
     .about {
         display: flex;
         flex-direction: row;
@@ -292,13 +272,9 @@ section {
         width: 70%;
     }
 
-    .text-about {
-        
-    }
     .about-paragraph-tablet{
         display: flex;
         visibility: visible;
-     
     }
 }
 
@@ -312,8 +288,6 @@ section {
     flex-direction: column;
     align-items: center;
 }
-
-
 
 .contact h2 {
     text-align: center;
@@ -339,7 +313,6 @@ section {
 .list-contact form ul {
     align-items: center;
 }
-
 
 .list-contact form ul li {
     margin: 30px 0 30px 0;
@@ -382,16 +355,11 @@ section {
     margin-bottom: 30px;
 }
 
-
-.reason-label {
-    
-}
-
 @media screen and (min-width: 601px){
+    
     .reason-li {
         padding: 8px 0 8px 0;
     }
-    
 
     .reason-label {
         padding: 10px 0 10px 0;
@@ -411,20 +379,15 @@ section {
         justify-content: space-evenly;
     }
 
-
     .reason-li {
         padding: 16px 0 16px 0;
     }
     
-
-
     .reason-label {
         padding: 10px 0 10px 0;
         font-size: 20px;
     }
 }
-
-
 
 /*-------------------------------------*/
 /*            ACTIVITIES               */
@@ -458,12 +421,14 @@ section {
 }
 
 @media screen and (min-width: 601px){
+
     .activities-article > h4 {
         font-size: 32px;
       }
 }
 
 @media screen and (min-width: 1025px){
+
     .activities {
         display: flex;
         flex-direction: row;
