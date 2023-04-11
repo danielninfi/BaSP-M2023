@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -15,15 +16,15 @@
     <body>
         <header>
             <div>
-                <img src="assets/ico/sandwich.svg" alt="">
+                <a class="dropdown" href="#"></a><img src="assets/ico/sandwich.svg" alt=""></a>
                 <h1>mega rocket</h1>
             </div>
-            <h3 class="tagline">a free and fully resposive site template</h3>
+            <h3 class="tagline-header">a free and fully resposive site template</h3>
             <nav>
-                <a href="#"><img src="assets/ico/home.png" alt="home"></a></li>
-                <a href="#"><img src="assets/ico/log-in.png" alt="log in"></a></li>
-                <a href="#"><img src="assets/ico/close-session.png" alt="close session"></a></li>
-                <a href="#"><img src="assets/ico/info.png" alt="info"></a></li>            
+                <a href="#"><img src="assets/ico/home.png" alt="home"></a>
+                <a href="#"><img src="assets/ico/log-in.png" alt="log in"></a>
+                <a href="#"><img src="assets/ico/close-session.png" alt="close session"></a>
+                <a href="#"><img src="assets/ico/info.png" alt="info"></a>           
             </nav>
         </header>
         <main>
@@ -39,111 +40,123 @@
                     </p>
                     <button type="submit" class="button-learn">Learn more</button>
                 </article>
-                <!--
                 <article class="present-right">
-                    
-                    <img class="img-gym" alt="gym image" src="assets/img/gym.jpg"/>
-                    
-                </article>
-                -->    
+                    <div class="img-container">
+                        <!-- <img src="/week-04/assets/img/gym.jpg"> -->
+                    </div>
+                </article> 
             </section>
             <section class="app-function">
                 <h2>App function</h2>
-                <div class="container-function-app">
-                    <article class="app-function-articles">  
-                        <img class="img-function" alt="appointment booking" src="assets/ico/check.svg"/>
-                        <div class="description-function">
-                            <h3>Appointment booking</h3>
-                            <p class="app-function-paragraph">
-                                Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam 
-                                facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                            </p>
-                        </div>
-                    </article>
-                    <article class="app-function-articles">
-                        <img class="img-function" alt="membership management" src="assets/ico/membership.svg"/>
-                        <div class="description-function">
-                            <h3>Membership management</h3>
-                            <p class="app-function-paragraph"> 
-                                Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam 
-                                facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                            </p>
-                        </div>    
-                    </article>
-                </div>
-                <div class="container-function-app">
-                    <article class="app-function-articles">
-                        <img class="img-function" alt="schedules" src="assets/ico/calendar.svg"/>
-                        <div class="description-function">
-                            <h3>Schedules</h3>
-                            <p class="app-function-paragraph">
-                                Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam 
-                                facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                            </p>
-                        </div>
-                    </article>
-                    <article class="app-function-articles">
-                        <img class="img-function" alt="contact and suggestions" src="assets/ico/cuestions.svg"/>
-                        <div class="description-function">
-                            <h3>Contact and suggestions</h3>
-                            <p class="app-function-paragraph"> 
-                                Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam 
-                                facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
-                            </p>
-                        </div>    
-                    </article>
-                </div>
+                <div class="container-app-function">
+                    <div class="container-function-articles">
+                        <article class="app-function-articles">  
+                            <img class="img-function" alt="appointment booking" src="assets/ico/check.svg"/>
+                            <div class="description-function">
+                                <h3>Appointment booking</h3>
+                                <p class="app-function-paragraph">
+                                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam 
+                                    facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="app-function-articles">
+                            <img class="img-function" alt="membership management" src="assets/ico/membership.svg"/>
+                            <div class="description-function">
+                                <h3>Membership management</h3>
+                                <p class="app-function-paragraph"> 
+                                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam 
+                                    facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                                </p>
+                            </div>    
+                        </article>
+                    </div>
+                    <div class="container-function-articles">
+                        <article class="app-function-articles">
+                            <img class="img-function" alt="schedules" src="assets/ico/calendar.svg"/>
+                            <div class="description-function">
+                                <h3>Schedules</h3>
+                                <p class="app-function-paragraph">
+                                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam 
+                                    facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="app-function-articles">
+                            <img class="img-function" alt="contact and suggestions" src="assets/ico/cuestions.svg"/>
+                            <div class="description-function">
+                                <h3>Contact and suggestions</h3>
+                                <p class="app-function-paragraph"> 
+                                    Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam 
+                                    facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>    
             </section>
             <section class="about">
                 <h2 class="title-about">About us</h2>
-                <p class="text-about">
-                    Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. 
-                    Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat 
-                    ac adipiscing accumsan eu faucibus. 
-                </p>
+                <article>
+                    <p class="text-about">
+                        Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. 
+                        Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat 
+                        ac adipiscing accumsan eu faucibus. 
+                    </p>
+                    <p class="about-paragraph-tablet">
+                        Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. 
+                        Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat 
+                        ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. 
+                        tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum 
+                        primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan 
+                        eu faucibus. Integer ac pellentesque praesent.
+                    </p>
+                </article>
             </section>
             <section class="contact">
                 <h2>Leave us your questions</h2>
-                <article class="list-contact">
-                    <form>
-                        <ul class="test">
-                            <li class="form">
-                                <input type="text" placeholder="Name" class="place">
-                            </li>
-                            <li class="form">
-                                <input type="text" placeholder="Last name" class="place">
-                            </li>
-                            <li class="form">
-                                <input type="email" placeholder="Email" class="place">
-                            </li>
-                        </ul>
-                        <ul>
-                            <textarea class="comments" name="comments" placeholder="Comments" rows="5" cols="20"></textarea>
-                        </ul>
-                        <ul class="form">
-                            <input type="submit" value="send" class="contact-button">    
-                        </ul>
-                    </form>
-                </article>   
-                <article class="reason"> 
-                    <form>
-                        <h4>Reason</h4>
-                        <ul>
-                            <li class="form">    
-                                <input type="checkbox" id="membership" name="membership" value="membership">
-                                <label for="membership">I want to know about memberships and costs</label>
-                            </li>
-                            <li class="form">
-                                <input type="checkbox" id="question" name="question" value="question">
-                                <label for="question">I have a question or suggestion</label> 
-                            </li>
-                            <li class="form">
-                                <input type="checkbox" id="claim" name="claim" value="claim">
-                                <label for="claim">I want to make a claim</label>      
-                            </li>
-                        </ul>   
-                    </form>
-                </article>    
+                <div class="container-forms">
+                    <article class="list-contact">
+                        <form class="data-contact">
+                            <ul class="contact-align">
+                                <li class="form">
+                                    <input type="text" placeholder="Name" class="place">
+                                </li>
+                                <li class="form">
+                                    <input type="text" placeholder="Last name" class="place">
+                                </li>
+                                <li class="form">
+                                    <input type="email" placeholder="Email" class="place">
+                                </li>
+                            </ul>
+                            <ul class="contact-align">
+                                <textarea class="comments" name="comments" placeholder="Comments" rows="5" cols="32"></textarea>
+                            </ul>
+                            <ul class="contact-align">
+                                <input type="submit" value="send" class="contact-button">    
+                            </ul>
+                        </form>
+                    </article>   
+                    <article class="reason"> 
+                        <form class="contact-align">
+                            <h4>Reason</h4>
+                            <ul>
+                                <li class="reason-li">    
+                                    <input type="checkbox" id="membership" name="membership" value="membership">
+                                    <label for="membership" class="reason-label">I want to know about memberships and costs</label>
+                                </li>
+                                <li class="reason-li">
+                                    <input type="checkbox" id="question" name="question" value="question">
+                                    <label for="question" class="reason-label">I have a question or suggestion</label> 
+                                </li>
+                                <li class="reason-li">
+                                    <input type="checkbox" id="claim" name="claim" value="claim">
+                                    <label for="claim" class="reason-label">I want to make a claim</label>      
+                                </li>
+                            </ul>   
+                        </form>
+                    </article>   
+                </div> 
             </section>
             <section class="activities">
                 <article class="activities-article">

@@ -8,9 +8,9 @@ output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Roboto Mono', monospace; 
-    /*vertical-align: baseline;*/
+    vertical-align: baseline;
   }
   
   /* HTML5 display-role reset for older browsers */

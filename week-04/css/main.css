@@ -13,6 +13,7 @@ section {
 
 .presentation {
     display: flex;
+    flex-direction: column;
     padding: 30px 0 30px 0;
 }
 
@@ -21,39 +22,121 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background: url('../assets/img/LOGO-RR.svg') no-repeat 0;
+    background-color: rgba(0, 0, 0, 0.15);
     background-position: center center;
     background-size: contain;
-    background-color: #D9D9D9;;
 }
 
 .greetings {
+    width: 80%;
     text-transform: capitalize;
-    margin: 30px 0 30px 0;
+    margin: 30px 30px 0;
 }
 
 .tagline {
+    width: 80%;
     text-transform: uppercase;
     margin: 30px 0 30px 0;
     display: none;
 }
 
 .presentation-paragraph {
-    font-size:  16px;
+    width: 80%;
+    font-size: 16px;
 }
 
 .button-learn {
-    height: 60px;
-    width: 200px;
+    height: 57px;
+    width: 170px;
     font-size: 16px;
-    font-style: normal;
+    font-style: medium;
     font-weight: 600;
+    line-height: 19px;
+    line-height: 100%;
     text-transform: uppercase;
+    color: #373867;
+    fill: solid;
     background-color: white;
     border-color: #49a37b;
     border-radius: 5px;
     text-align: center;
     margin: 30px 0 30px 0;
+    align-content: center;
+    vertical-align: top;
+}
+
+.present-rigth {
+    background-color: green;
+}
+
+.img-container {
+    
+    display: none;
+}
+
+@media screen and (min-width: 601px){
+
+    .presentation {
+        display: flex;
+        flex-direction: row;   
+        
+    
+    }
+
+    .present-left {
+        width: 49%;
+        background-image: none;
+        background-color: white;
+          
+    }
+
+    .greetings {
+        text-align: start;
+       
+        margin: 0;
+        padding: 0;
+    }
+
+    .tagline {
+     
+        display: flex;
+        text-align: start;
+        visibility: visible;
+    }
+
+    .presentation-paragraph {
+        text-align: start;
+    }
+
+
+
+    .present-rigth {
+        width: 49%;
+        background-color: red;
+        display: flex;
+        visibility: visible;
+
+    }
+
+    .img-container {
+        
+        /* background: url('../assets/img/LOGO-RR.svg') no-repeat 0;
+        background-color: rgba(0, 0, 0, 0.15);
+        background-position: center center;
+        background-size: contain; */
+        /* transform: scale(0.7);
+        display: flex;
+        visibility: visible;     */
+    }
+
+}
+
+
+
+@media screen and (min-width: 1025px){
+    
 }
 
 /*-------------------------------------*/
@@ -65,21 +148,31 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;   
+ 
 }
 
-.container-function-app {
+.container-app-function {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-function-articles {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .app-function-articles {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 60px;
+    
 }
 
 .app-function-articles img {
@@ -92,12 +185,69 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
+
+}
+
+.description-function h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
 }
 
 .app-function-paragraph {
     margin-top: 30px;
     text-align: center;
+}
+
+@media screen and (min-width: 601px){
+    .app-function-articles {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; 
+        margin-bottom: 60px;
+    }
+
+    .description-function {
+        margin-left: 60px;
+    }
+    
+    .description-function h3 {
+        width: 100%;
+        text-align: left;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0em;
+       
+    }
+    
+    .app-function-paragraph {
+        margin-top: 30px;
+        text-align: left; 
+        max-width: 600px;
+    }
+
+
+}
+
+@media screen and (min-width: 1025px){
+    
+    .app-function-articles {
+        margin-left: 30px;
+    }
+
+    .container-app-function {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .description-function {
+        margin-left: 20px;
+    }
 }
 
 /*-------------------------------------*/
@@ -107,6 +257,51 @@ section {
 .about {
    text-align: center;
 }
+
+.about h2 {
+    
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+    
+}
+
+.about-paragraph-tablet {
+    display: none;
+}
+
+@media screen and (min-width: 601px){
+    .about-paragraph-tablet{
+        display: flex;
+        visibility: visible;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .about {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .about > article {
+        width: 70%;
+    }
+
+    .text-about {
+        
+    }
+    .about-paragraph-tablet{
+        display: flex;
+        visibility: visible;
+     
+    }
+}
+
 
 /*-------------------------------------*/
 /*              CONTACT                */
@@ -118,15 +313,33 @@ section {
     align-items: center;
 }
 
-.contact h4 {
+
+
+.contact h2 {
     text-align: center;
 }
 
-.test{
+.container-forms {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-align{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.data-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-contact form ul {
+    align-items: center;
+}
+
 
 .list-contact form ul li {
     margin: 30px 0 30px 0;
@@ -134,12 +347,19 @@ section {
 }
 
 .place {
-    height: 40px;
-    width: 350px;
-    font-size: 20px;
+    height: 30px;
+    width: 250px;
+    font-size: 16px;
+}
+
+.container-textarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .comments {
+    font-size: 16px;
     border: 1px solid black;
 }
 
@@ -162,28 +382,96 @@ section {
     margin-bottom: 30px;
 }
 
+
+.reason-label {
+    
+}
+
+@media screen and (min-width: 601px){
+    .reason-li {
+        padding: 8px 0 8px 0;
+    }
+    
+
+    .reason-label {
+        padding: 10px 0 10px 0;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-forms {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+
+    .reason-li {
+        padding: 16px 0 16px 0;
+    }
+    
+
+
+    .reason-label {
+        padding: 10px 0 10px 0;
+        font-size: 20px;
+    }
+}
+
+
+
 /*-------------------------------------*/
 /*            ACTIVITIES               */
 /*-------------------------------------*/
 
-.activities { 
+.activities {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    
+    align-items: center;
 }
 
 .activities > article {
-    
-    max-width: fit-content;
-    margin: 30px;
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .activities-article > h4 {
+    font-size: 24px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .activities > article > ul > li { 
-    font-size: 12px;
+    padding-bottom: 15px;
+    font-size: 14px;
     list-style: circle; 
+}
+
+@media screen and (min-width: 601px){
+    .activities-article > h4 {
+        font-size: 32px;
+      }
+}
+
+@media screen and (min-width: 1025px){
+    .activities {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .activities > article {
+        vertical-align: top;
+    }
 }
