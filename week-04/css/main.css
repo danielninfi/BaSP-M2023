@@ -116,24 +116,11 @@ section {
         text-align: start;
     }
 
-
-    
-
-    .present-rigth {
-        
-    }
-
     .img-container{
-       
         display: flex;
         visibility: visible;
         height: 100%;
-        
     }
-}
-
-@media screen and (min-width: 1025px){
-    
 }
 
 /*-------------------------------------*/
@@ -301,7 +288,6 @@ section {
     }
 }
 
-
 /*-------------------------------------*/
 /*              CONTACT                */
 /*-------------------------------------*/
@@ -335,7 +321,6 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .container-forms-deskopt-add {
@@ -374,7 +359,6 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 .container-from-mobile {
@@ -404,7 +388,6 @@ section {
     font-size: 25px;
     border: none;
     border-radius: 5px;
-   
     background-color: #AACE9B;
 }
 
@@ -416,14 +399,10 @@ section {
     display: none;
 }
 
-.reason-title-mobile {}
-
 .reason h4 {
     text-align: center;
     margin-bottom: 30px;
 }
-
-
 
 .deskopt-form-enginners {
     display: flex;
@@ -432,7 +411,6 @@ section {
     align-items: center;
     display: none;
     width: 100%;
-    
 }
 
 @media screen and (min-width: 601px){
@@ -454,11 +432,6 @@ section {
         align-items: center;
     }
 
-    .container-forms {
-       
-        
-    }
-
     .container-form-base {
         display: flex;
         flex-direction: row;
@@ -472,13 +445,9 @@ section {
     }
 
     .contact-title {
-        font-size: ;
         width: 100%;
     }
     
-    .reason-title-mobile {
-        /* display: none; */
-    }
     .reason h4 {
         text-align: start;
         margin-left: 60px;
@@ -491,12 +460,8 @@ section {
     }
 
     .comments {
-        
         margin-top: 60px;
-        width:
-        
     }
-
 
     .container-from-mobile {
         display: none;
@@ -506,11 +471,6 @@ section {
         font-size: 16px;
         margin-top: 60px;
         width: 100%
-        
-    }
-
-    .text-area-size {
-      
     }
 
     .reason-title {
@@ -536,8 +496,6 @@ section {
     .deskopt-form-enginners {
         display: flex;
         visibility: visible;
-       
-       
     }
 }   
 
@@ -562,8 +520,8 @@ section {
 
 .activities-article > h4 {
     font-size: 24px;
-  margin-bottom: 30px;
-  text-align: center;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .activities > article > ul > li { 

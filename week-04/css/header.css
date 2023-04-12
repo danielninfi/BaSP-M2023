@@ -10,11 +10,6 @@ header div {
     width: 100%;
     display: flex;
     justify-content: center;
-    
-}
-
-.dropdown {
-  
 }
 
 .tagline-header {
@@ -47,7 +42,6 @@ nav a img{
     .tagline-header {
         display: none;
     }
-    
 }
 
 @media screen and (min-width: 1025px){
@@ -60,13 +54,11 @@ nav a img{
     header div {
         width: 80%;
         display: flex;
-        justify-content: flex-start;
-        
+        justify-content: flex-start; 
     }
 
     nav a img{
         min-width: 35px;
         max-width: 40px;
-    }
-    
+    } 
 }
