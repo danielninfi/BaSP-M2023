@@ -12,6 +12,10 @@ header div {
     justify-content: center;
 }
 
+.dropdown {
+    padding-left: 60px;
+}
+
 .tagline-header {
     text-transform: uppercase;
     margin: 30px 0 30px 0;

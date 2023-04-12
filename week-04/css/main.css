@@ -80,7 +80,6 @@ section {
 
 .img-container img {
     width: 100%;
-    
 }
 
 @media screen and (min-width: 601px){
@@ -94,26 +93,33 @@ section {
     }
 
     .present-left {
-        width: 50%;
-        align-items: flex-start;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         background-image: none; 
         background-color: transparent;  
     }
 
     .greetings {
+        width: 100%;
         text-align: start;
         margin: 0;
         padding: 0;
     }
 
     .tagline {
+        width: 100%;
         display: flex;
         text-align: start;
         visibility: visible;
     }
 
     .presentation-paragraph {
+        width: 100%;
         text-align: start;
+        margin-right: 60px;
+        
     }
 
     .img-container{
@@ -426,6 +432,7 @@ section {
 }
 
 @media screen and (min-width: 1025px){
+    
     .contact {
         display: flex;
         flex-direction: column;
