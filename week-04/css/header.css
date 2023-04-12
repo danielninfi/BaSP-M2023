@@ -10,10 +10,7 @@ header div {
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-.dropdown {
-    padding-left: 60px;
+    margin-left: 30px;
 }
 
 .tagline-header {
@@ -46,9 +43,14 @@ nav a img{
     .tagline-header {
         display: none;
     }
+
+    h1 {
+        margin-left: 60px;
+    }
 }
 
 @media screen and (min-width: 1025px){
+    
     header {
         height: 100px;
         flex-direction: row;
