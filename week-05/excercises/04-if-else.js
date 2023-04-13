@@ -6,7 +6,7 @@ console.log('--EXERCISE 4: IF and ELSE');
 
 console.log('-Exercise 4.a:');
 
-console.log(result);
+//console.log(result);
 
 /*b. Crear una variable “Age” que contenga un número entero entre 0 y 100 y muestre los siguientes mensajes de alerta:
 “Bebe” si la edad es menor a 2 años;
@@ -20,4 +20,4 @@ console.log(result);
 
 console.log('-Exercise 4.b:');
 
-console.log(result);
+//console.log(result);
