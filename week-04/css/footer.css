@@ -1,24 +1,24 @@
 footer {
-   height: 500px;
     display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
 }
 
 .socials {
-    width: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    width: 300px;
+}    
 
 .socials > a > img {
-    height: 60px;
     width: 60px;
+    height: 60px;
 }
 
-.copyrigth {
+.copyright {
     height: 30px;
     font-weight: 600;
 }

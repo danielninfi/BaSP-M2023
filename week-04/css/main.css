@@ -18,29 +18,30 @@ section {
 }
 
 .present-left {
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    width: 100%;
     background: url('../assets/img/LOGO-RR.svg') no-repeat 0;
     background-color: rgba(0, 0, 0, 0.15);
     background-position: center center;
     background-size: contain;
+    text-align: center;
 }
 
 .greetings {
     width: 80%;
-    text-transform: capitalize;
     margin: 30px 30px 0;
+    text-transform: capitalize;
 }
 
 .tagline {
-    width: 80%;
-    text-transform: uppercase;
-    margin: 30px 0 30px 0;
     display: none;
+    width: 80%;
+    margin: 30px 0 30px 0;
+    text-transform: uppercase;
+    
 }
 
 .presentation-paragraph {
@@ -49,23 +50,21 @@ section {
 }
 
 .button-learn {
-    height: 57px;
+    align-content: center;
+    vertical-align: top;
     width: 170px;
+    height: 57px;
+    margin: 30px 0 30px 0;
+    background-color: white;
+    border-color: #49a37b;
+    border-radius: 5px;
     font-size: 16px;
     font-style: medium;
     font-weight: 600;
     line-height: 19px;
-    line-height: 100%;
+    text-align: center;
     text-transform: uppercase;
     color: #373867;
-    fill: solid;
-    background-color: white;
-    border-color: #49a37b;
-    border-radius: 5px;
-    text-align: center;
-    margin: 30px 0 30px 0;
-    align-content: center;
-    vertical-align: top;
 }
 
 .present-right {
@@ -86,46 +85,46 @@ section {
 
     .presentation {
         display: flex;
-       flex-direction: row;
-       justify-content: center;
-       align-items:center;
-       margin: 0 5% 0 5%;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+        margin: 0 5% 0 5%;
     }
 
     .present-left {
-        width: 40%;
         justify-content: center;
         align-items: flex-start;
         text-align: center;
-        background-image: none; 
-        background-color: transparent;  
+        width: 40%;
         margin-right: 20px;
+        background-color: transparent;  
+        background-image: none; 
     }
 
     .greetings {
         width: 100%;
-        text-align: start;
         margin: 0;
         padding: 0;
-    }
+        text-align: start;
+    }    
 
     .tagline {
-        width: 100%;
         display: flex;
         text-align: start;
+        width: 100%;
         visibility: visible;
     }
 
     .presentation-paragraph {
         width: 100%;
-        text-align: start;
         margin-right: 60px;
+        text-align: start;
     }
 
     .img-container{
         display: flex;
-        visibility: visible;
         height: 100%;
+        visibility: visible;
     }
 }
 
@@ -165,8 +164,8 @@ section {
 }
 
 .app-function-articles img {
-    margin-bottom: 15px;
     width: 75px;
+    margin-bottom: 15px;
 }
 
 .description-function {
@@ -178,11 +177,11 @@ section {
 
 .description-function h3 {
     width: 100%;
-    text-align: center;
     font-size: 28px;
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0em;
+    text-align: center;
 }
 
 .app-function-paragraph {
@@ -219,17 +218,17 @@ section {
     
     .description-function h3 {
         width: 100%;
-        text-align: left;
         font-size: 28px;
         font-weight: 400;
         line-height: 33px;
         letter-spacing: 0em;
+        text-align: left;
     }
     
     .app-function-paragraph {
+        max-width: 600px;
         margin-top: 30px;
         text-align: left; 
-        max-width: 600px;
     }
 }
 
@@ -244,11 +243,11 @@ section {
     }
 
     .container-app-function {
-        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
+        width: 100%;
     }
 
     .description-function {
@@ -261,7 +260,7 @@ section {
 /*-------------------------------------*/
 
 .about {
-   text-align: center;
+    text-align: center;
 }
 
 .about h2 {
@@ -314,11 +313,11 @@ section {
 }
 
 .contact-title {
-    text-align: center;
     font-size: 28px;
     font-weight: 500;
     line-height: 47px;
     letter-spacing: 0em;
+    text-align: center;
 }
 
 .reason-title {
@@ -338,7 +337,7 @@ section {
     align-items: center;
 }
 
-.container-forms-deskopt-add {
+.container-forms-desktop-add {
     display: flex;
 }
 
@@ -365,8 +364,8 @@ section {
 }
 
 .place {
-    height: 30px;
     width: 250px;
+    height: 30px;
     font-size: 16px;
 }
 
@@ -386,10 +385,10 @@ section {
 
 .comments {
     display: flex;
-    font-size: 16px;
-    height: 200px;
     width: 100%;
+    height: 200px;
     border: 1px solid black;
+    font-size: 16px;
 }
 
 .comments-desktop {
@@ -397,13 +396,13 @@ section {
 }
 
 .contact-button{
-    margin: 30px;
-    height: 60px;
     width: 90px;
-    font-size: 25px;
+    height: 60px;
+    margin: 30px;
+    background-color: #AACE9B;
     border: none;
     border-radius: 5px;
-    background-color: #AACE9B;
+    font-size: 25px;
 }
 
 .reason {
@@ -415,11 +414,11 @@ section {
 }
 
 .reason h4 {
-    text-align: center;
     margin-bottom: 30px;
+    text-align: center;
 }
 
-.deskopt-form-enginners {
+.desktop-form-engineers {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -455,9 +454,9 @@ section {
     }
 
     .contact-title-desktop {
-        width: 100%;
         display: flex;
         flex-direction: row;
+        width: 100%;
     }
 
     .contact-title {
@@ -465,9 +464,9 @@ section {
     }
     
     .reason h4 {
-        text-align: start;
-        margin-left: 60px;
         margin-bottom: 60px;
+        margin-left: 60px;
+        text-align: start;
     }
 
     .container-forms {
@@ -484,16 +483,16 @@ section {
     }
 
     .comments-desktop {
-        font-size: 16px;
+        width: 80%;
         margin-top: 60px;
-        width: 80%
+        font-size: 16px;
     }
 
     .reason-title {
-        width: 63%;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        width: 63%;
         margin-left: 100px;
     }
 
@@ -514,7 +513,7 @@ section {
         font-size: 20px;
     }
 
-    .deskopt-form-enginners {
+    .desktop-form-engineers {
         display: flex;
         visibility: visible;
     }
@@ -531,17 +530,17 @@ section {
 }
 
 .activities > article {
-    width: 100%;
-    margin: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin: 50px;
 }
 
 .activities-article > h4 {
-    font-size: 24px;
     margin-bottom: 30px;
+    font-size: 24px;
     text-align: center;
 }
 
