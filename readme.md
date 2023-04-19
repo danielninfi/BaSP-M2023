@@ -35,6 +35,8 @@ https://danielninfi.github.io/BaSP-M2023/week-04/
 This week we started working on JavaScript, six exercises were presented and we were able to solve them with a large amount of asynchronous material. I was able to consolidate previous knowledge and include the new ones provided by this course.
 I also had to correct things in the html and css, improve the neatness of the order of the elements make it a much more friendly code.
 
+https://danielninfi.github.io/BaSP-M2023/week-05/
+
 ## Authors
 
 - Daniel Ninfi
