@@ -37,11 +37,11 @@ nav a img{
     letter-spacing: 0em;
     text-align: center;
     color: black;
-    
+
 }
 
 @media screen and (min-width: 601px){
-    
+
     h1 {
         margin-left: 60px;
     }
@@ -52,23 +52,23 @@ nav a img{
 }
 
 @media screen and (min-width: 1025px){
-    
+
     header {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         height: 100px;
-        
+
     }
     header div {
         display: flex;
         justify-content: flex-start;
         width: 80%;
-        
+
     }
 
     nav a img{
         min-width: 35px;
         max-width: 40px;
-    } 
+    }
 }
