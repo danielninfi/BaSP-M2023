@@ -3,6 +3,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 100px 0 100px 0;
 }
 
 form {
@@ -15,32 +16,32 @@ form {
 
 fieldset {
     padding: 30px;
+    width: 80%;
 }
 
 
+fieldset div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 fieldset img {
-    width: 20px;
+    width: 25px;
 }
+
+
 
 input {
     border: none;
     border-bottom: 1px solid #49A37B;
+    background-color: #FDFBFB;
     height: 40px;
     font-size: 20px;
 }
 
 
-button {
-    margin: 30px;
-    background-color: #49A37B;
-    border: none;
-    color: #fff;
-    text-transform: capitalize;
-    width: 50%;
-    height: 50px;
-    border-radius: 5px;
-}
+
 
 .remember {
     display: flex;
@@ -72,8 +73,8 @@ button {
     height: 100%;
     max-width: 600px;
     max-height: 1244px;
-    margin-top: 20px;
     box-shadow: 2px 10px 5px #ddd;
+    background-color: #FDFBFB;
 }
 
 .container h3 {
@@ -90,16 +91,53 @@ button {
     width: 100%;
 }
 
+.error {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 12px;
+    color: red;
+}
+
+.correct {
+    display: none;
+}
+
+#show-password-btn {
+    background-color: #49A37B;
+    border: none;
+    color: #fff;
+
+    border-radius: 5px;
+}
+#show-password-btn  img{
+    width: 20px;
+    height: 20px;
+}
+
+.button-show-and-hide{
+    
+}
+
+.submit-button {
+    margin: 30px;
+    background-color: #49A37B;
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+
 @media screen and (min-width: 601px){
 
     form {
         max-width: 600px;
     }
 
-
-
     .help {
-
         width: 100%;
     }
 }

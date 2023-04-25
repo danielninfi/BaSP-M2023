@@ -344,7 +344,6 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: red;
 }
 
 .data-contact {
@@ -472,7 +471,6 @@ section {
     .container-forms {
         flex-direction: column;
         justify-content: space-evenly;
-        background-color: blue;
         width: 80%;
     }
 

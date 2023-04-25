@@ -17,7 +17,7 @@
     <body>
         <header>
             <div>
-                <a class="dropdown" href="#"></a><img class="dropdown-img" src="assets/ico/sandwich.svg" alt=""></a>
+                <a class="dropdown" href="#"></a><img class="dropdown-img" src="../../assets/ico/sandwich.svg" alt=""></a>
                 <h1>mega rocket</h1>
             </div>
             <h3 class="tagline-header">a free and fully resposive site template</h3>
@@ -33,14 +33,19 @@
                 <h3>log in</h3>
                 <form>
                     <fieldset>
-                        <img src="../../assets/ico/mail.svg" alt="mail">
-                        <label></label>
-                        <input type="text">
+                        <div>
+                            <img src="../../assets/ico/mail.svg" alt="mail">
+                            <input type="text" id="emailLogin">
+                        </div>
+                        <span class="correct" id="emailErrorMsg"></span>
                     </fieldset>
                     <fieldset>
-                        <img src="../../assets/ico/lock.svg" alt="lock">
-                        <label></label>
-                        <input type="password">
+                        <div>
+                            <img src="../../assets/ico/lock.svg" alt="lock">
+                            <input type="password" id="passwordLogin">
+                            <button id="show-password-btn" class="button-show-and-hide"><img src="../../assets/ico/eye-closed.png" alt="show password"></button>
+                        </div>
+                        <span class="correct" id="passwordErrorMsg"></span>
                     </fieldset>
                     <div class="help">
                         <article class="remember">
@@ -52,7 +57,8 @@
                             <a href="#">get help</a>
                         </article>
                     </div>
-                    <button id="subnit-button" type="submit">log in</button>
+                    <button id="submit-button" class="submit-button" type="submit">log in</button>
+                    <span class="correctInputs" id=""></span>
                 </form>
             </div>
         </main>
