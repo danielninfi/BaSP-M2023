@@ -389,6 +389,68 @@ repeatPasswordInput.onfocus = function () {
     repeatPasswordErrorMsg.classList.add("correct");
 };
 
+// register
+
+function submitForm() {
+    var firstName = document.getElementById("firstName").value;
+    var lastName = document.getElementById("lastName").value;
+    var ident = document.getElementById("ident").value;
+    var birthDate = document.getElementById("birthDate").value;
+    var phoneNumber = document.getElementById("phoneNumber").value;
+    var address = document.getElementById("address").value;
+    var city = document.getElementById("city").value;
+    var zipCode = document.getElementById("zipCode").value;
+    var isValid = true;
+
+    if (firstName == "") {
+        alert("Please enter a first name");
+        isValid = false;
+    }
+    if (lastName == "") {
+        alert("Please enter a last name");
+        isValid = false;
+    }
+    if (ident == "") {
+        alert("Please enter an ID");
+        isValid = false;
+    }
+    if (birthDate == "") {
+        alert("Please enter a birth date");
+        isValid = false;
+    }
+    if (phoneNumber == "") {
+        alert("Please enter a phone number");
+        isValid = false;
+    }
+    if (address == "") {
+        alert("Please enter an address");
+        isValid = false;
+    }
+    if (city == "") {
+        alert("Please enter a city");
+        isValid = false;
+    }
+    if (zipCode == "") {
+        alert("Please enter a zip code");
+        isValid = false;
+    }
+
+    if (isValid) {
+        alert("Name: " + firstName + " " + lastName +
+            "\nID: " + ident +
+            "\nBirth Date: " + birthDate +
+            "\nPhone Number: " + phoneNumber +
+            "\nAddress: " + address +
+            "\nCity: " + city +
+            "\nZip Code: " + zipCode);
+        document.getElementById("myForm").reset();
+    }
+}
+
+var submitRegister = document.getElementById("submitForm");
+
+submitRegister.addEventListener('click', submitForm);
+}
 /*
 
 // show password
@@ -426,4 +488,3 @@ showRepeatPasswordButton.addEventListener('click', function() {
 });
 */
 
-}
