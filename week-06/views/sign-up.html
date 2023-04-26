@@ -17,79 +17,95 @@
     <body>
         <header>
             <div>
-                <a class="dropdown" href="#"></a><img class="dropdown-img" src="assets/ico/sandwich.svg" alt=""></a>
+                <!--<a class="dropdown" href="#"></a><img class="dropdown-img" src="assets/ico/sandwich.svg" alt=""></a>-->
                 <h1>mega rocket</h1>
             </div>
             <h3 class="tagline-header">a free and fully responsive site template</h3>
             <nav>
                 <a href="index.html"><img src="../../assets/ico/home.png" alt="home"></a>
-                <a href="login.html"><img src="../../assets/ico/log-in.png" alt="log in"></a>
-                <a href="sign-up.html"><img src="../../assets/ico/close-session.png" alt="close session"></a>
+                <a href="sign-up.html"><img src="../../assets/ico/log-in.png" alt="log in"></a>
+                <a href="login.html"><img src="../../assets/ico/close-session.png" alt="close session"></a>
                 <a href="#"><img src="../../assets/ico/info.png" alt="info"></a>
             </nav>
         </header>
         <main>
             <div class="container">
                 <h3>sign up</h3>
-                <form>
+                <form id="nameForm" onsubmit="return validateForm()">
                     <div class="labels-form">
                         <div class="container-forms">
                             <fieldset>
                                 <label>name</label>
-                                <input type="text">
-                                <span class="" id=""></span>
+                                <input type="text" id="firstName">
+                                <span class="correct" id="nameError"></span>
                             </fieldset>
                             <fieldset>
                                 <label>last name</label>
-                                <input type="text">
-                                <span class="" id=""></span>
+                                <input type="text" id="lastName">
+                                <span class="correct" id="lastNameMsg"></span>
                             </fieldset>
                             <fieldset>
                                 <label>id</label>
-                                <input type="text">
-                                <span class="" id=""></span>
+                                <input type="text" id="ident">
+                                <span class="correct" id="identMsg"></span>
                             </fieldset>
                             <fieldset>
                                 <label>birth date</label>
-                                <input type="date">
-                                <span class="" id=""></span>
+                                <input type="date" id="birthDate">
+                                <span class="correct" id="birthDateMsg"></span>
                             </fieldset>
                             <fieldset>
                                 <label>phone number</label>
-                                <input type="text">
-                                <span class="" id=""></span>
+                                <input type="text" id="phoneNumber">
+                                <span class="correct" id="phoneNumberMsg"></span>
                             </fieldset>
                             <fieldset>
                                 <label>address</label>
-                                <input type="text">
-                                <span class="" id=""></span>
+                                <input type="text" id="address">
+                                <span class="correct" id="addressMsg"></span>
                             </fieldset>
                         </div>
                         <div class="container-forms">
                             <fieldset>
                                 <label>city</label>
-                                <input type="text">
-                                <span class="" id=""></span>
+                                <input type="text" id="city">
+                                <span class="correct" id="cityMsg"></span>
                             </fieldset>
                             <fieldset>
                                 <label>zip code</label>
-                                <input type="text">
-                                <span class="" id=""></span>
+                                <input type="text" id="zipCode">
+                                <span class="correct" id="zipCodeMsg"></span>
                             </fieldset>
                             <fieldset>
                                 <label>email</label>
-                                <input type="text">
-                                <span class="" id=""></span>
+                                <input type="text" id="email">
+                                <span class="correct" id="emailMsg"></span>
                             </fieldset>
                             <fieldset>
                                 <label>password</label>
-                                <input type="password">
-                                <span class="" id=""></span>
+                                <!--                                <div>
+                                    <input type="password" id="passwordRegister">
+                                    <button id="show-password-register-btn" class="button-show-and-hide">
+                                        <img src="../../assets/ico/eye-closed.png" alt="show password">
+                                    </button>
+                                </div>
+                                -->
+
+                                <input type="password" id="passwordRegister">
+                                <span class="error" id="passwordMsg"></span>
                             </fieldset>
                             <fieldset>
                                 <label>repeat password</label>
-                                <input type="password">
-                                <span class="" id=""></span>
+                                <!--
+                                <div>
+                                    <input type="password" id="repeatPassword">
+                                    <button id="show-password-register-btn" class="button-show-and-hide">
+                                        <img src="../../assets/ico/eye-closed.png" alt="show password">
+                                    </button>
+                                </div>
+                                -->
+                                <input type="password" id="repeatPassword">
+                                <span class="correct" id="repeatPasswordErrorMsg"></span>
                             </fieldset>
                         </div>
                     </div>

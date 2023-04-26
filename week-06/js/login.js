@@ -1,5 +1,7 @@
 window.onload = function (){
 
+    // email
+
     var emailLogin = document.getElementById("emailLogin");
     var emailErrorMsg = document.getElementById("emailErrorMsg");
 
@@ -68,7 +70,7 @@ window.onload = function (){
         passwordErrorMsg.classList.add("correct");
     };
 
-
+/*
 var passwordInput = document.getElementById('passwordLogin');
 var showPasswordBtn = document.getElementById('show-password-btn');
 var eyeImg = showPasswordBtn.querySelector('img');
@@ -84,4 +86,5 @@ showPasswordBtn.addEventListener('click', function() {
     eyeImg.alt = 'show password';
     }
 });
+*/
 }
