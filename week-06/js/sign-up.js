@@ -102,7 +102,7 @@ idInput.onfocus = function () {
     idMsg.classList.remove("correct");
 };
 
-// queda trabado la class correct
+// queda trabada la class correct
 
 /*----------------------*/
 /*     Birth Date      */
@@ -451,40 +451,3 @@ var submitRegister = document.getElementById("submitForm");
 
 submitRegister.addEventListener('click', submitForm);
 }
-/*
-
-// show password
-
-var passwordInput = document.getElementById('passwordRegister');
-var showPasswordBtn = document.getElementById('show-password-register-btn');
-var eyeImg = showPasswordBtn.querySelector('img');
-
-showPasswordBtn.addEventListener('click', function() {
-    if (passwordInput.type === 'password') {
-    passwordInput.type = 'text';
-    eyeImg.src = '../../assets/ico/eye-open.png';
-    eyeImg.alt = 'hide password';
-    } else {
-    passwordInput.type = 'password';
-    eyeImg.src = '../../assets/ico/eye-closed.png';
-    eyeImg.alt = 'show password';
-    }
-});
-
-var repeatPasswordInput = document.getElementById('repeatPassword');
-var showRepeatPasswordButton = document.getElementById('show-password-register-btn');
-var eyeImg = showRepeatPasswordButton.querySelector('img');
-
-showRepeatPasswordButton.addEventListener('click', function() {
-    if (repeatPasswordInput.type === 'password') {
-    repeatPasswordInput.type = 'text';
-    eyeImg.src = '../../assets/ico/eye-open.png';
-    eyeImg.alt = 'hide password';
-    } else {
-    repeatPasswordInput.type = 'password';
-    eyeImg.src = '../../assets/ico/eye-closed.png';
-    eyeImg.alt = 'show password';
-    }
-});
-*/
-

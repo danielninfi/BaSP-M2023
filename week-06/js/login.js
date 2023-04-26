@@ -101,29 +101,4 @@ window.onload = function (){
             alert("Please fix the errors in the form");
         }
     });
-
-
-
-
-
-/*
-var passwordInput = document.getElementById('passwordLogin');
-var showPasswordBtn = document.getElementById('show-password-btn');
-var eyeImg = showPasswordBtn.querySelector('img');
-
-showPasswordBtn.addEventListener('click', function() {
-    if (passwordInput.type === 'password') {
-    passwordInput.type = 'text';
-    eyeImg.src = '../../assets/ico/eye-open.png';
-    eyeImg.alt = 'hide password';
-    } else {
-    passwordInput.type = 'password';
-    eyeImg.src = '../../assets/ico/eye-closed.png';
-    eyeImg.alt = 'show password';
-    }
-});
-*/
-
-
-
 }
