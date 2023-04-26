@@ -70,6 +70,40 @@ window.onload = function (){
         passwordErrorMsg.classList.add("correct");
     };
 
+// register
+
+    document.getElementById("login-button").addEventListener("click", function(event) {
+        event.preventDefault();
+        var email = document.getElementById("emailLogin").value;
+        var password = document.getElementById("passwordLogin").value;
+        var emailErrorMsg = document.getElementById("emailErrorMsg");
+        var passwordErrorMsg = document.getElementById("passwordErrorMsg");
+
+        var isValid = true;
+
+        if (email.indexOf("@") == -1 || email.indexOf(".") == -1) {
+            emailErrorMsg.textContent = "Please enter a valid email";
+            isValid = false;
+        } else {
+            emailErrorMsg.textContent = "";
+        }
+
+        if (password.length < 8) {
+            passwordErrorMsg.textContent = "Password must be at least 8 characters";
+            isValid = false;
+        } else {
+            passwordErrorMsg.textContent = "";
+        }
+
+        if (isValid) {
+            alert("Email: " + email + "\nPassword: " + password);
+        } else {
+            alert("Please fix the errors in the form");
+        }
+    });
+
+
+
 /*
 var passwordInput = document.getElementById('passwordLogin');
 var showPasswordBtn = document.getElementById('show-password-btn');
@@ -87,4 +121,7 @@ showPasswordBtn.addEventListener('click', function() {
     }
 });
 */
+
+
+
 }
