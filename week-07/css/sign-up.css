@@ -1,0 +1,133 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 100px 0;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+fieldset img {
+    width: 20px;
+}
+
+label {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #49A37B;
+    height: 40px;
+    font-size: 20px;
+    background-color: #FDFBFB;
+}
+
+button {
+    margin: 30px;
+    background-color: #49A37B;
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.forgot {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 2px 10px 5px #ddd;
+    background-color: #FDFBFB;
+
+}
+
+.container h3 {
+    margin: 50px 0 50px 0;
+    text-transform: capitalize;
+}
+
+.help {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    padding: 15px 0 15px 0;
+    width: 100%;
+}
+
+.error {
+    padding-top: 20px;
+    font-size: 12px;
+    color: red;
+}
+
+.correct {
+    display: none;
+}
+
+#show-password-register-btn {
+    background-color: #49A37B;
+    border: none;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+#show-password-btn  img{
+    width: 20px;
+    height: 20px;
+}
+
+
+@media screen and (min-width: 601px){
+
+    .labels-form {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .help {
+
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    form {
+        max-width: 1025px;
+
+    }
+}

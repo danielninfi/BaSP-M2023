@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/login.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <title>Log in</title>
+        <script src="../js/login.js"></script>
+    </head>
+    <body>
+        <header>
+            <div>
+                <a class="dropdown" href="#"></a><img class="dropdown-img" src="../../assets/ico/sandwich.svg" alt=""></a>
+                <h1>mega rocket</h1>
+            </div>
+            <h3 class="tagline-header">a free and fully responsive site template</h3>
+            <nav>
+                <a href="index.html"><img src="../../assets/ico/home.png" alt="home"></a>
+                <a href="sign-up.html"><img src="../../assets/ico/log-in.png" alt="log in"></a>
+                <a href="login.html"><img src="../../assets/ico/close-session.png" alt="close session"></a>
+                <a href="#"><img src="../../assets/ico/info.png" alt="info"></a>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <h3>log in</h3>
+                <form id="login-form">
+                    <fieldset>
+                        <div>
+                            <img src="../../assets/ico/mail.svg" alt="mail">
+                            <input type="text" id="emailLogin">
+                        </div>
+                        <span class="correct" id="emailErrorMsg"></span>
+                    </fieldset>
+                    <fieldset>
+                        <div>
+                            <img src="../../assets/ico/lock.svg" alt="lock">
+                            <input type="password" id="passwordLogin">
+                        </div>
+                        <span class="correct" id="passwordErrorMsg"></span>
+                    </fieldset>
+                    <div class="help">
+                        <article class="remember">
+                            <input type="checkbox" id="remember" name="remember" value="remember" class="check">
+                            <label for="remember" class="remember-label">remember me</label>
+                        </article>
+                        <article class="forgot">
+                            <a href="#">forgot password?</a>
+                            <a href="#">get help</a>
+                        </article>
+                    </div>
+                    <button id="login-button" class="submit-button" type="submit">Register</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <article class="socials">
+                <a href="#"><img src="../../assets/ico/facebook.svg" alt="facebook"></a></a>
+                <a href="#"><img src="../../assets/ico/whatsapp.svg" alt="whats app"></a></a>
+                <a href="#"><img src="../../assets/ico/instagram.svg" alt="instagram"></a></a>
+            </article>
+            <article>
+                <p class="copyright">&copy; mega rocket sa 2023</p>
+            </article>
+        </footer>
+    </body>
+</html>

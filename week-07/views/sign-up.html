@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/sign-up.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <title>Sign up</title>
+        <script src="../js/sign-up.js"></script>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1>mega rocket</h1>
+            </div>
+            <h3 class="tagline-header">a free and fully responsive site template</h3>
+            <nav>
+                <a href="index.html"><img src="../../assets/ico/home.png" alt="home"></a>
+                <a href="sign-up.html"><img src="../../assets/ico/log-in.png" alt="log in"></a>
+                <a href="login.html"><img src="../../assets/ico/close-session.png" alt="close session"></a>
+                <a href="#"><img src="../../assets/ico/info.png" alt="info"></a>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <h3>sign up</h3>
+                <form id="nameForm" onsubmit="return submitForm()">
+                    <div class="labels-form">
+                        <div class="container-forms">
+                            <fieldset>
+                                <label>name</label>
+                                <input type="text" id="firstName">
+                                <span class="correct" id="nameError"></span>
+                            </fieldset>
+                            <fieldset>
+                                <label>last name</label>
+                                <input type="text" id="lastName">
+                                <span class="correct" id="lastNameMsg"></span>
+                            </fieldset>
+                            <fieldset>
+                                <label>id</label>
+                                <input type="text" id="ident">
+                                <span class="correct" id="identMsg"></span>
+                            </fieldset>
+                            <fieldset>
+                                <label>birth date</label>
+                                <input type="date" id="birthDate">
+                                <span class="correct" id="birthDateMsg"></span>
+                            </fieldset>
+                            <fieldset>
+                                <label>phone number</label>
+                                <input type="text" id="phoneNumber">
+                                <span class="correct" id="phoneNumberMsg"></span>
+                            </fieldset>
+                            <fieldset>
+                                <label>address</label>
+                                <input type="text" id="address">
+                                <span class="correct" id="addressMsg"></span>
+                            </fieldset>
+                        </div>
+                        <div class="container-forms">
+                            <fieldset>
+                                <label>city</label>
+                                <input type="text" id="city">
+                                <span class="correct" id="cityMsg"></span>
+                            </fieldset>
+                            <fieldset>
+                                <label>zip code</label>
+                                <input type="text" id="zipCode">
+                                <span class="correct" id="zipCodeMsg"></span>
+                            </fieldset>
+                            <fieldset>
+                                <label>email</label>
+                                <input type="text" id="email">
+                                <span class="correct" id="emailMsg"></span>
+                            </fieldset>
+                            <fieldset>
+                                <label>password</label>
+                                <input type="password" id="passwordRegister">
+                                <span class="error" id="passwordMsg"></span>
+                            </fieldset>
+                            <fieldset>
+                                <label>repeat password</label>
+                                <input type="password" id="repeatPassword">
+                                <span class="correct" id="repeatPasswordErrorMsg"></span>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <button id="submitForm" type="submit">sign up</button>
+                    <span class="" id=""></span>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <article class="socials">
+                <a href="#"><img src="../../assets/ico/facebook.svg" alt="facebook"></a></a>
+                <a href="#"><img src="../../assets/ico/whatsapp.svg" alt="whats app"></a></a>
+                <a href="#"><img src="../../assets/ico/instagram.svg" alt="instagram"></a></a>
+            </article>
+            <article>
+                <p class="copyright">&copy; mega rocket sa 2023</p>
+            </article>
+        </footer>
+    </body>
+</html>
