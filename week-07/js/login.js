@@ -55,13 +55,11 @@ window.onload = function (){
         if (!hasBigLetter || !hasSmallLetter || !hasNumber) {
             passwordErrorMsg.classList.remove("correct");
             passwordErrorMsg.classList.add("error");
-            passwordErrorMsg.textContent = "this field needs at least one capital letter, one small letter and one number.";
         }
 
         if (password.length < 5) {
             passwordErrorMsg.classList.remove("correct");
             passwordErrorMsg.classList.add("error");
-            passwordErrorMsg.textContent = "this field needs at least 8 letters";
             }
     });
 
@@ -100,5 +98,23 @@ window.onload = function (){
         } else {
             alert("Please fix the errors in the form");
         }
+
+        var url = "https://api-rest-server.vercel.app/login";
+
+        var queryParams = `?email=${email}&password=${password}`;
+
+        fetch(url + queryParams)
+        .then(response => {
+                return response.json()})
+        .then((data) => {
+            if (data.success === false) {
+                console.log(data);
+                throw data.msg;
+            }
+            alert(`Successful. info compiled:\n${data.msg}`);
+        })
+        .catch((error) => {
+            alert(`Error: ${error}`);
+        });
     });
 }
