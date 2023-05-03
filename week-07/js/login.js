@@ -112,6 +112,7 @@ window.onload = function (){
                 throw data.msg;
             }
             alert(`Successful. info compiled:\n${data.msg}`);
+            document.getElementById("login-form").reset();
         })
         .catch((error) => {
             alert(`Error: ${error}`);
