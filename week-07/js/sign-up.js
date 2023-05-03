@@ -100,6 +100,7 @@ window.onload = function (){
     idInput.onfocus = function () {
         idMsg.classList.remove("error");
         idMsg.classList.remove("correct");
+        idMsg.textContent = '';
     };
 
     // queda trabada la class correct
