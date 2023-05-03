@@ -1,6 +1,6 @@
 # Become a Software Professional 2023
 
-## week-02
+## week-01
 the first week we worked on the landing page of our project in figma.
 I had never worked with figma before but I found it a very interesting program and above all easy to learn.
 Authors: Daniel Ninfi - Federico Fracchia - Mateo Carciente
@@ -49,6 +49,14 @@ validate its content with specific requirements.
 I was able to strengthen my knowledge in JS as well as apply it to real situations.
 
 https://danielninfi.github.io/BaSP-M2023/week-06/views/
+
+## week-07
+
+This week we are working with the fetch method to fetch data to the api and validate it.
+Also to store it in the local storage and to be able to deposit it in the inputs of the form.
+We also added alerts that indicate us the data entered and if the process was successful or had an error.
+
+https://danielninfi.github.io/BaSP-M2023/week-07/views/
 ## Authors
 
 - Daniel Ninfi
